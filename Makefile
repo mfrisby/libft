@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: mfrisby <marvin@42.fr>                     +#+  +:+       +#+         #
+#    By: mfrisby <mfrisby@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2014/11/13 19:08:56 by mfrisby           #+#    #+#              #
-#    Updated: 2017/05/25 14:02:02 by mfrisby          ###   ########.fr        #
+#    Updated: 2018/03/13 14:16:56 by mfrisby          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,7 @@ PRINTF = srcs/printf/
 OTHER = srcs/other/
 
 SRCS = 	$(OTHER)ft_atoi.c $(OTHER)ft_bzero.c $(OTHER)get_next_line.c $(OTHER)ft_getnbr.c $(OTHER)ft_itoa.c\
-		$(OTHER)ft_tolower.c $(OTHER)ft_toupper.c $(OTHER)ft_splitblank.c\
+		$(OTHER)ft_tolower.c $(OTHER)ft_toupper.c $(OTHER)ft_splitblank.c $(OTHER)ft_atof.c\
 		$(IS)ft_isalnum.c $(IS)ft_isalpha.c $(IS)ft_isascii.c $(IS)ft_isdigit.c $(IS)ft_isprint.c\
 		$(MEM)ft_memalloc.c $(MEM)ft_memccpy.c $(MEM)ft_memchr.c \
 		$(MEM)ft_memcmp.c $(MEM)ft_memcpy.c $(MEM)ft_memdel.c $(MEM)ft_memmove.c $(MEM)ft_memset.c \

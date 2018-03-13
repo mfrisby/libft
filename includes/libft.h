@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfrisby <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mfrisby <mfrisby@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/10 16:50:26 by mfrisby           #+#    #+#             */
-/*   Updated: 2016/08/04 18:19:21 by mfrisby          ###   ########.fr       */
+/*   Updated: 2018/03/13 14:16:45 by mfrisby          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,6 +88,7 @@ t_list				*ft_lstnew(void const *content, size_t content_size);
 void				ft_lstdel(t_list **alst, void (*del)(void *, size_t));
 void				ft_lstdelone(t_list **alst, void (*del)(void *, size_t));
 int					ft_getnbr(char *str);
+double				ft_atof(char *str);
 int					get_next_line(int fd, char **line);
 char				**splitblank(char const *s);
 char				*ft_strjoin_free(char *s1, char *s2, int rm);
